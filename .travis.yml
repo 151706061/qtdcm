@@ -1,7 +1,11 @@
 language: cpp
 
+os:
+  - linux
+
 compiler:
   - gcc
 
 script:
-  - cmake --build
+  - echo `pwd`
+  - cmake
