@@ -8,4 +8,5 @@ compiler:
 
 script:
   - echo `pwd`
-  - cmake
+  - ls
+  - cmake .
